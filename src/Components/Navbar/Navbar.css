@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 50px;
+  border-bottom: 1px solid;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  background-color: aquamarine;
+}
+.navbar__text {
+  font-size: 1.3rem;
+}
+.navbar__link {
+  text-decoration: none;
+  color: blue;
+  transition: all 0.3s ease-in-out;
+}
+.navbar__link:hover {
+  color: #00cbff;
+  font-size: 1.2rem;
+}
